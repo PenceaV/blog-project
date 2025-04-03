@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>The Unknown Blog</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Poppins] overflow-x-hidden">
+    <header class="mb-2 px-1 shadow">
+        <div class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+          <a class="flex items-center text-lg font-black" href="/">
+            <span>The Untitled Blog</span>
+          </a>
+          <input class="peer hidden" type="checkbox" id="navbar-open" />
+          <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+            <span class="sr-only">Toggle Navigation</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" /></svg>
+          </label>
+          <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+            <ul class="font-semibold flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+              <li class=""><a class="text-gray-600 hover:text-[#1f1c1c] hover:underline" href="/">Home</a></li>
+              <li class=""><a class="text-gray-600 hover:text-[#1f1c1c] hover:underline" href="/about">About</a></li>
+              <li class=""><a class="text-gray-600 hover:text-[#1f1c1c] hover:underline" href="/contact">Contact Us</a></li>
+              <li class="mt-2 sm:mt-0"><a class="rounded-4xl px-6 py-2 bg-[#312C2C] bg-font-medium text-white hover:bg-[#1f1c1c] hover:text-white" href="/write">Write a post</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>      
+
+
+
+    
